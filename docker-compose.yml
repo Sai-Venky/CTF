@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  ctfchallenge:
+    container_name: ctfchallenge
+    build: 
+      context: .
+    ports:
+    - "9000-9200:9000-9200"
+    - "80:80"

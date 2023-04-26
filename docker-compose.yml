@@ -1,7 +1,7 @@
 version: "3.9"
 services:
-  ctfchallenge:
-    container_name: ctfchallenge
+  hackooctf:
+    container_name: hackooctf
     build: 
       context: .
     ports:
